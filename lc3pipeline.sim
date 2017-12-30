@@ -1429,7 +1429,7 @@
           "y": 138,
           "properties": {
             "Label location": "NORTH",
-            "Contents": "16-000",
+            "Contents": "018 003 180 381 932 003 082 243 000 002 000 000 036 000 180 000",
             "Label": "ID ROM",
             "Bitsize": "12",
             "Address bits": "4"
