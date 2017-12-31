@@ -8,5 +8,15 @@ repo.
 
 Shoutout to my main man Conte.
 
+Assembler
+---------
+
+The `/asm/` directory of this repository includes a Makefile and Python
+3.5+ script that will assemble LC-3 assembly into a `.dat` file ready
+for loading into Roigisim. Really, this just means running [Brandon's
+LC-3 assembler, `as2obj`][3], parsing the LC-3 object file it produces,
+and writing that in a hexdump format compatible with Roigisim.
+
 [1]: https://github.com/ra4king/CircuitSim
 [2]: https://en.wikipedia.org/wiki/LC-3
+[3]: https://github.com/TricksterGuy/complx
