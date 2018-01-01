@@ -15,4 +15,4 @@ help:
 	./obj2dat.py $<
 
 clean:
-	rm -f *.obj *.dat
+	rm -f *.obj *.dat *.sym
